@@ -10,6 +10,9 @@
 
 <body>
 
+    <div class="box"></div>
+
+
     <script>
 
         let text = `One: 'Hi Mary.' Two: 'Oh, hi.'
@@ -32,9 +35,12 @@ One: 'Sure. Bye.'`
 
         let reg = text.replace(/'/g, '"');
 
-        let reg2 = reg.replace(/"m|"t|"s|"l/g)
+        let reg2 = reg.replace(/"m/g, '`m')
+        let reg3 = reg2.replace(/"t/g, '`t')
+        let reg4 = reg3.replace(/"s/g, '`s')
+        let reg5 = reg4.replace(/"l/g, '`l')
 
-        console.log(reg3)
+        console.log(reg5)
 
 
     </script>
