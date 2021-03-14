@@ -1,0 +1,14 @@
+[
+  {
+    "id_good": 124,
+    "name": "Keyboard",
+    "price": 1600,
+    "quantity": 1
+  },
+  {
+    "id_good": 457,
+    "name": "Gamepad",
+    "price": 3000,
+    "quantity": 2
+  }
+]
