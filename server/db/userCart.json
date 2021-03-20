@@ -1,0 +1,55 @@
+{
+    "amount": 6950,
+    "countGoods": 2,
+    "contents": [
+        {
+            "id_product": 1,
+            "product_name": "Azalea",
+            "img_product": "img/azalea.jfif",
+            "price": 200,
+            "quantity": 2
+        },
+        {
+            "id_product": 2,
+            "product_name": "Elm",
+            "img_product": "img/elm.jpg",
+            "price": 250,
+            "quantity": 4
+        },
+        {
+            "id_product": 3,
+            "product_name": "Ficus",
+            "img_product": "img/ficus.jpg",
+            "price": 300,
+            "quantity": 3
+        },
+        {
+            "id_product": 4,
+            "product_name": "Juniper",
+            "img_product": "img/juniper.jpg",
+            "price": 800,
+            "quantity": 4
+        },
+        {
+            "id_product": 5,
+            "product_name": "Karmona",
+            "img_product": "img/karmona.jfif",
+            "price": 400,
+            "quantity": 1
+        },
+        {
+            "id_product": 6,
+            "product_name": "Maple",
+            "img_product": "img/maple.jpg",
+            "price": 700,
+            "quantity": 2
+        },
+        {
+            "id_product": 7,
+            "product_name": "Pine",
+            "img_product": "img/pine.jpg",
+            "price": 750,
+            "quantity": 2
+        }
+    ]
+}
