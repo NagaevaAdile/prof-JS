@@ -19,17 +19,18 @@ body {
 
 .header h1 {
     font-size: 80px;
-    margin: 30px;
+    margin: 40px;
 }
 
 button:focus{
     outline: none;
 }
-.logo{
 
+.logo{
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .btn-cart, .subscribe-button {
     background-color: #fafafa;
     padding: 10px 20px;
@@ -39,52 +40,57 @@ button:focus{
     transition: all ease-in-out .4s;
     cursor: pointer;
 }
+
 .btn-cart:hover, .subscribe-button:hover {
     background-color: transparent;
     border-color: #fafafa;
     color: #3CB371;
 }
+
 .btn-cart, .logo{
     align-self: center;
 }
-/*.products {*/
-/*display: flex;*/
-/*justify-content: space-between;*/
-/*flex-wrap: wrap;*/
-/*padding: 40px 80px;*/
-/*}*/
+
 .products{
     column-gap: 30px;
     display: grid;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, 300px);
     grid-template-rows: 1fr;
     padding: 40px 200px;
     justify-content: space-between;
 }
+
 p {
     margin: 0 0 5px 0;
 }
-.product-item{
+
+.product-item {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 300px;
     border-radius: 5px;
     overflow: hidden;
     margin: 20px 0;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
 }
+
 img {
     max-width: 100%;
     height: auto
 }
+
 .desc {
     border: 1px solid #c0c0c040;
     padding: 15px
 }
-.cart{
+
+.cart {
     display: flex;
     position: relative;
 }
-.cart-block{
+
+.cart-block {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
     filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
     border-radius: 5px;
     box-sizing: border-box;
@@ -95,6 +101,7 @@ img {
     padding: 20px;
     color: black;
     width: 400px;
+    z-index: 1;
 }
 
 .cart-container {
@@ -105,6 +112,7 @@ img {
 .invisible{
     display: none;
 }
+
 .cart-block:before{
     content: '';
     width: 0;
@@ -127,42 +135,52 @@ img {
     transition: all ease-in-out .4s;
     cursor: pointer;
 }
+
 .buy-btn:hover, .del-btn:hover, .btnInCart:hover {
     background-color: #fafafa;
     color: #3CB371;
     border: 1px solid #3CB371;
 }
+
 .cart-item {
     display: flex;
     justify-content: space-around;
 }
+
 .cart-item:not(:last-child){
     margin-bottom: 20px;
 }
+
 .product-bio{
     display: flex;
 }
+
 .cart-item img{
     align-self: flex-start;
     margin-right: 15px;
 }
+
 .product-single-price{
     color: #474747;
     font-size: 0.5em;
 }
+
 .product-price{
     margin-left: 30px;
 }
 .product-desc{
     max-width: 250px;
 }
+
 .product-quantity {
     margin-top: 15px;
     font-size: 0.75em;
 }
+
 .right-block{
     text-align: right;
 }
+
 .btn-search {
     background-color: transparent;
     border: none;
@@ -172,14 +190,17 @@ img {
     bottom: 5px;
     right: 0;
 }
+
 .search-form{
     position: relative;
     margin-right: 50px;
     display: inline-block;
 }
+
 .search-field:focus{
     outline: none;
 }
+
 .search-field, .subscribe-input {
     box-sizing: border-box;
     width: 200px;
@@ -189,12 +210,14 @@ img {
     border-bottom: 2px solid #fafafa;
     outline: none;
 }
+
 .error-msg {
     padding: 30px 20px;
     background-color: red;
     color: white;
     position: relative;
 }
+
 .error-block {
     background-color: rgba(0,0,0, .5);
     justify-content: center;
@@ -205,6 +228,7 @@ img {
     height: 100%;
     align-items: center;
 }
+
 .close-btn {
     font-size: 1.5em;
     top: -40px;
@@ -215,31 +239,48 @@ img {
     color: white;
     font-weight: bold;
 }
+
 .footer {
     height: 1100px;
     background-color: white;
-    background-image: url('../img/bac1.jpg');
+    /* background-image: url('../img/bac1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
+    background-size: cover; */
+    position: relative;
 }
+
 .write {
-    margin-top: 220px;
+    position: absolute;
+    top: 25%;
+    right: 16%;
 }
+
 .copy {
-    align-self: flex-end;
-    align-self: flex-end;
-    margin-left: 350px;
+    position: absolute;
+    bottom: 5%;
+    left: 34%;
 }
+
 .line-img {
     display: block;
     margin: 0 auto;
+    width: 93%;
 }
+
 .copy__link {
     list-style: none;
     display: flex;
 }
+
 .copy__link li {
     margin-right: 15px;
+}
+
+.fo-img {
+    width: 100%;
+    height: auto;
+}
+
+.copy__item-svg:hover {
+    fill: #3CB371;
 }

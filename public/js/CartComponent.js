@@ -95,7 +95,7 @@ Vue.component('cart-item', {
     props: ['img', 'cartItem'],
     template: `
     <div class="cart-item">
-        <img class="cartImg" src="{{ cartItem.img_product }}" alt="Some img" width="130" height="auto">
+        <img class="cartImg" :src="cartItem.img_product" alt="Some img" width="130" height="auto">
         <div class="product-desc">
             <h3>{{ cartItem.product_name }}</h3>
             <p>price: {{ cartItem.price }}</p>

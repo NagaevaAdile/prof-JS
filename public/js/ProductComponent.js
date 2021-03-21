@@ -32,7 +32,7 @@ Vue.component('product', {
     props: ['product', 'img'],
     template: `
             <div class="product-item">
-                <img src="{{product.img_product}}" alt="some img" width="250" height="250">
+                <img :src="product.img_product" alt="some img" width="450" height="250">
                 <div class="desc">
                 <h3 class="forDesc">{{product.product_name}}</h3>
                 <p class="forDesc">{{product.price}} $</p>
