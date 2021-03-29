@@ -7,14 +7,14 @@
             "product_name": "Azalea",
             "img_product": "img/azalea.jfif",
             "price": 200,
-            "quantity": 2
+            "quantity": 4
         },
         {
             "id_product": 2,
             "product_name": "Elm",
             "img_product": "img/elm.jpg",
             "price": 250,
-            "quantity": 6
+            "quantity": 8
         },
         {
             "id_product": 3,
@@ -42,7 +42,7 @@
             "product_name": "Maple",
             "img_product": "img/maple.jpg",
             "price": 700,
-            "quantity": 2
+            "quantity": 4
         },
         {
             "id_product": 7,
